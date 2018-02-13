@@ -9,7 +9,3 @@ header, section, article, nav, aside, footer, div{
   padding: 10px;
   margin: 10px;
 }
-
-#SiteNavigation{
-  flex-direction: row;
-}
