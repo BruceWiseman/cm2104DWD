@@ -10,6 +10,23 @@ header, section, article, nav, aside, footer, div{
   margin: 10px;
 }
 
+#SiteNavigation ul{
+  list-style: none;
+
+}
+
+#SiteNavigation ul li{
+  display: inline-block;
+
+}
+
 #SiteNavigation{
-  flex-direction: row;
+
+
+}
+
+ul{
+justify-content: space-between;
+display: -webkit-flex;
+display: flex;
 }
