@@ -1,8 +1,9 @@
 *{
   border: 1px dotted black;
-  margins: auto;
+  margins: 10px;
   width: 80%;
   padding: 10px;
+  align-content: center;
 }
 
 #TopDiv{
@@ -22,6 +23,59 @@
 #SiteNavigation ul li{
   padding: 10px;
   width: 50px;
+}
+
+#MainContent {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
+
+.ContentPane {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+#LeftPane {
+  display: -webkit-flex;
+  display: flex;
+  flex: 3 3 300px;
+}
+
+#LeftPane img {
+  flex: 4 4 400px;
+}
+
+#LeftPane p {
+  flex: 1 1 100px;
+}
+
+#RightPane {
+  display: -webkit-flex;
+  display: flex;
+  flex: 1 1 100px;
+}
+
+#ImageThumbnails {
+  display: -webkit-flex;
+  display: flex;
+  flex: 2 2 auto;
+  flex-wrap: wrap;
+}
+
+#ImageThumbnails img {
+  max-width: 50px;
+  max-height: 50px;
+  /* width: 50%; */
+  margin-bottom:20px;
+}
+
+#ImageComments {
+  display: -webkit-flex;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
 }
 
 /*
