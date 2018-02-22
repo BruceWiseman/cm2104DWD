@@ -12,7 +12,9 @@ header, section, article, nav, aside, footer, div{
 
 #SiteNavigation ul{
   list-style: none;
-
+  justify-content: space-between;
+  display: -webkit-flex;
+  display: flex;
 }
 
 #SiteNavigation ul li{
@@ -26,7 +28,5 @@ header, section, article, nav, aside, footer, div{
 }
 
 ul{
-justify-content: space-between;
-display: -webkit-flex;
-display: flex;
+
 }
